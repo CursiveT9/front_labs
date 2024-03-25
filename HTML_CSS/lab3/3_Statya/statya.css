@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(237, 237, 237);
+    color: rgb(50, 50, 50);
+}
+article{
+    margin: auto;
+    width: 70%;
+}
+img {
+    max-width: 60%;
+    max-height: 60%;
+}
