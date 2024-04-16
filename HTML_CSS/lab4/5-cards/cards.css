@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+h1{
+    padding-left: 17%;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.cards-layout {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.masonry-card {
+    height: fit-content;
+}
+
+.masonry-card .card-content{
+    padding: 20px 20px 0;
+}
+
+.masonry-card .card-footer{
+    padding: 0 20px 0 20px;
+}
+
+.flex-card {
+    height: 720px;
+}
+
+.flex-card .card-content{
+    flex-grow: 1;
+    padding: 20px 20px 0;
+}
+
+.flex-card .card-footer {
+    flex-shrink: 0;
+    padding: 0 20px 0 20px;
+    height: fit-content;
+}
+
+hr{
+    width: 100%;
+}
