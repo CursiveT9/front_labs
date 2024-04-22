@@ -1,22 +1,26 @@
-body{
+body {
     margin-top: 125px;;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: rgb(240, 240, 240);
 }
-th{
+
+th {
     background-color: rgb(222, 222, 222);
     border: 1px solid rgb(222, 222, 222);
     border-collapse: collapse;
     text-align: left;
 }
-td{
+
+td {
     border: 1px solid rgb(222, 222, 222);
     border-collapse: collapse;
     text-align: left;
     width: 250px;
 }
-table{
+
+table {
     border: 1px solid rgb(222, 222, 222);
     border-collapse: collapse;
     text-align: left;
@@ -24,6 +28,7 @@ table{
     width: 90%;
     margin: auto;
 }
+
 tr:hover {
     background-color: rgb(0, 0, 0);
 }

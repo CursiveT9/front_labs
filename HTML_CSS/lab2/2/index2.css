@@ -1,10 +1,12 @@
-body{
+body {
     margin-top: 125px;
 }
-.text{
+
+.text {
     font-family: 'Helvetica', sans-serif;
 }
-li{
+
+li {
     font-size: 16px;
     line-height: 1.5;
 }
