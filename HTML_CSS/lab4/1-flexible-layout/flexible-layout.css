@@ -23,7 +23,7 @@ header, main, aside, footer {
 }
 
 header {
-    flex-grow: 0.2;;
+    flex-grow: 0.2;
     flex-shrink: 1;
     flex-basis: auto;
 }
